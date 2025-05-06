@@ -1,0 +1,34 @@
+* {
+    color: white;  
+    text-align: center;
+}
+
+body {
+    background-image: linear-gradient(rgb(0, 0, 0), #AA00F9);
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+}
+
+.container {
+    background-color: #000000;
+    padding: 20px;
+    border: #ffffff solid 6px;
+}
+
+/* ================================== Top Navigation Bar */
+.topnav > a {
+    background-color: #2d2842;
+    padding: 10px 50px 10px 50px; 
+    /*padding: top, right, bottom, left*/
+    text-decoration: none;
+}
+  
+.topnav > a:visited {
+    color: white;
+}
+  
+.topnav > a:hover {
+    color: #000000;
+    background-color: #AA00F9;
+}
