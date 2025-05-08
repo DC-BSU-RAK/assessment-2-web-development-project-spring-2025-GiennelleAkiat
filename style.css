@@ -19,6 +19,11 @@ div {
     border: #ffffff solid 6px;
 }
 
+.container {
+    display: flex;
+    width: 50%;
+}
+
 /* ================================== Illustration Slideshow */
 
 .slides {
