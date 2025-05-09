@@ -4,36 +4,110 @@
 }
 
 body {
-    position: relative;
-    background-image: linear-gradient(rgb(0, 0, 0), #AA00F9);
+    /* position: relative; */
+    background-image: linear-gradient(#000000, #AA00F9);
     background-attachment: fixed;
     background-size: cover;
     background-color: black;
 }
 
+h1 {
+    font-size: 60px;
+}
+
 div {
-    position: relative;
+    background-color: black;
+    /* 
+    border: 6px solid white;
+    position: absolute;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow: auto; */
+    /* position: relative;
     top: 80px;
     background-color: #000000;
     padding: 20px;
-    border: #ffffff solid 6px;
+    border: #ffffff solid 6px; */
 }
 
 .container {
-    display: flex;
+    border: 5px solid #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 50%;
+    height: 500px;
+    padding: 10px;
+    z-index: 1;
+}
+
+
+
+.container h3 {
+    font-size: 30px;
+    margin-top: -20px;
 }
 
 /* ================================== Illustration Slideshow */
 
 .slides {
     display:grid;
-    gap: 1rem;
+    gap: 20rem;
     grid-auto-flow: column;
     overflow-y: auto;
     overscroll-behavior-x: contain;
     scroll-snap-type: x mandatory;
     scrollbar-width: none;
+}
+
+.illust {
+    border: 5px solid #ffffff;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 10%);
+    width: 70%;
+    /* height: 500px; */
+    padding: 40px;
+}
+
+.illust h1 {
+    margin-top: -20px;
+}
+
+.illust img {
+    display: block;
+    max-width:1250px;
+    max-height:700px;
+    width: auto;
+    height: auto;
+}
+
+.comic {
+    border: 5px solid #ffffff;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 10%);
+    width: 70%;
+    /* height: 500px; */
+    padding: 40px;
+}
+
+.comic h1 {
+    margin-top: -20px;
+}
+
+.comic img {
+    display: block;
+    max-width:1250px;
+    max-height:900px;
+    width: auto;
+    height: auto;
 }
 
 /* ================================== Top Navigation Bar */
